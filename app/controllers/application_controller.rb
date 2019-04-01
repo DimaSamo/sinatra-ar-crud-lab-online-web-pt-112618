@@ -16,6 +16,6 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/articles' do
-
+    binding.pry
   end
 end
