@@ -1,6 +1,6 @@
 <%=@article.title%>
 <%=@article.content%>
-<form method="post" action="patch '/articles/:id'">
+<form method="post" action="patch /articles/:id">
   <input id="hidden" type="hidden" name="_method" value="PATCH">
   <label for="title">Title</label>
   <input type="text" name="title">
